@@ -133,7 +133,9 @@ This tool uses keyword and pattern matching, not semantic NLP. Known limitations
 
 ## Background
 
-This tool was built as a practical extension of threat intelligence work covering Iranian APT operations against U.S. critical infrastructure. The TTP extraction process it automates is documented in the companion Substack post: [When the Lights Go Out — Iran's PLC Campaign](https://shankarbettadapura.substack.com).
+This tool was built as a practical extension of threat intelligence work covering Iranian APT operations against U.S. critical infrastructure. It was tested against CISA Advisory AA26-097A — [Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a) — a joint advisory published April 7, 2026 by CISA, FBI, NSA, EPA, DOE, and U.S. Cyber Command, which includes explicit MITRE ATT&CK TTP mappings for the CyberAv3ngers campaign.
+
+A write-up on building this tool and the results of running it against the advisory is available on [Substack](https://shankarbettadapura.substack.com).
 
 ---
 
