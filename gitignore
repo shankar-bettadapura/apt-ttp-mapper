@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+
+# ATT&CK dataset (10MB — too large to commit, auto-downloaded on first run)
+enterprise-attack.json
+
+# Output files (generated artifacts, not source)
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
